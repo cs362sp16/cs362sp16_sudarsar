@@ -1,8 +1,8 @@
 /* 	Interactive Dominion Interface
-	
+
 	Sam Heinith CS362
 	1/26/2010
-*/
+	*/
 
 
 
