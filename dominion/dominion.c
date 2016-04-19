@@ -645,7 +645,7 @@ int getCost(int cardNumber)
 void smithyCard(int i, int currentPlayer, struct gameState *state, int handPos)
 {
 	//+3 Cards
-	for (i = 0; i < 3; i++)
+	for (i = 0; i <= 3; i++)
 	{
 		drawCard(currentPlayer, state);
 	}
@@ -677,9 +677,6 @@ void outpostCard(struct gameState *state, int handPos, int currentPlayer)
 
 void salvagerCard(int choice1, int handPos, int currentPlayer, struct gameState *state)
 {
-	//+1 buy
-	state->numBuys++;
-
 	if (choice1)
 	{
 		//gain coins equal to trashed card
@@ -694,9 +691,11 @@ void salvagerCard(int choice1, int handPos, int currentPlayer, struct gameState 
 
 void sea_hagCard(int i, int currentPlayer, struct gameState *state)
 {
-	for (i = 0; i < state->numPlayers; i++){
-		if (i != currentPlayer){
-			state->discard[i][state->discardCount[i]] = state->deck[i][state->deckCount[i]--];			    state->deckCount[i]--;
+	for (i = 0; i < state->numPlayers; i++) 
+	{
+		if (i != currentPlayer) 
+		{
+			state->discard[i][state->discardCount[i]] = state->deck[i][state->deckCount[i]--];			    
 			state->discardCount[i]++;
 			state->deck[i][state->deckCount[i]--] = curse;//Top card now a curse
 		}
