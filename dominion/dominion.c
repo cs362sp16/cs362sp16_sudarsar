@@ -888,6 +888,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
 			return 0;
 
 		case smithy:
+			i=0;
 			smithyCard(i, currentPlayer, state, handPos);
 			return 0;
 
@@ -1207,6 +1208,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
 			return 0;
 
 		case sea_hag:
+			i=0;
 			sea_hagCard(i, currentPlayer, state);
 			return 0;
 

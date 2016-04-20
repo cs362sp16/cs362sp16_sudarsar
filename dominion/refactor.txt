@@ -1,0 +1,1 @@
+Refactored code from 5 cards into separate functions. Cards refactored: smithy, village, outpost, salvager and sea_hag. Also, introduced 3 new bugs into the code. code seems to be compiling fine. 
