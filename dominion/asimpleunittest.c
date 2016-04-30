@@ -1,4 +1,5 @@
 #include "dominion.h"
+#include <stdio.h>
 
 int failed = 0;
 
@@ -7,6 +8,7 @@ int myassert(int b,char* msg) {
 		printf("FAILED ASSERTION: %s\n",msg);
 		failed = 1;
 	}
+	return 0;
 }
 
 void checkasserts() {
