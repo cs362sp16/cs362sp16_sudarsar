@@ -2,14 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int fail = 0;
-
 void assertNewGame(struct gameState *game)
 {
 	if (!game)
 	{
 		printf("AssertNewGame: Test Fail!\n");
-		fail = 1;
 
 		exit(0);
 	}

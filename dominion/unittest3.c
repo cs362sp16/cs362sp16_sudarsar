@@ -2,13 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int fail = 0;
-
 void assertInitializeGame(int actualPlayers, int expectedPlayers)
 {
-	if (actualPlayers == expectedPlayers)
-		fail = 1;
-	else
+	if (actualPlayers != expectedPlayers)
 	{
 		printf("AssertInitializeGame: Test Fail!\n");
 		printf("Expected: %d\n", expectedPlayers);

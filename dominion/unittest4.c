@@ -2,8 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int fail = 0;
-
 void assertKingdomCards(int *a)
 {
 	for (int i=0;i<10;i++)
