@@ -1,0 +1,40 @@
+AssertKingdomCardsValues: Test Success!
+File 'unittest1.c'
+Lines executed:88.46% of 26
+unittest1.c:creating 'unittest1.c.gcov'
+
+AssertNewGame: Test Success!
+File 'unittest2.c'
+Lines executed:75.00% of 12
+unittest2.c:creating 'unittest2.c.gcov'
+
+AssertInitializeGame: Test Success!
+File 'unittest3.c'
+Lines executed:78.57% of 14
+unittest3.c:creating 'unittest3.c.gcov'
+
+AssertKingdomCards: Test Success!
+File 'unittest4.c'
+Lines executed:78.57% of 14
+unittest4.c:creating 'unittest4.c.gcov'
+
+AssertSmithy: Success!
+File 'cardtest1.c'
+Lines executed:83.33% of 18
+cardtest1.c:creating 'cardtest1.c.gcov'
+
+AssertOutpost: Success!
+File 'cardtest2.c'
+Lines executed:83.33% of 18
+cardtest2.c:creating 'cardtest2.c.gcov'
+
+AssertGreatHall: Success!
+File 'cardtest3.c'
+Lines executed:83.33% of 18
+cardtest3.c:creating 'cardtest3.c.gcov'
+
+AssertEmbargo: Success!
+File 'cardtest4.c'
+Lines executed:85.00% of 20
+cardtest4.c:creating 'cardtest4.c.gcov'
+

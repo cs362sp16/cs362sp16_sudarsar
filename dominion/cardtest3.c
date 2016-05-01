@@ -16,7 +16,7 @@ void assertGreatHall(int b, char *msg)
 void checkAsserts()
 {
 	if (!fail)
-		printf("Assert: Success!\n");
+		printf("AssertGreatHall: Success!\n");
 }
 
 int main()

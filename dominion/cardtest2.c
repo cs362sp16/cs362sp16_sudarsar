@@ -16,7 +16,7 @@ void assertOutpostCard(int b, char *msg)
 void checkAsserts()
 {
 	if (!fail)
-		printf("Assert: Success!\n");
+		printf("AssertOutpost: Success!\n");
 }
 
 int main()

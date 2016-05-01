@@ -8,7 +8,7 @@ void assertSmithy(int b, char *msg)
 {
 	if (b == 0)
 	{
-		printf("Assert: Fail! (%s)\n", msg);
+		printf("AssertSmithy: Fail! (%s)\n", msg);
 		fail = 1;
 	}
 }
@@ -16,7 +16,7 @@ void assertSmithy(int b, char *msg)
 void checkAsserts()
 {
 	if (!fail)
-		printf("Assert: Success!\n");
+		printf("AssertSmithy: Success!\n");
 }
 
 int main()

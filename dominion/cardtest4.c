@@ -16,7 +16,7 @@ void assertEmbargo(int b, char *msg)
 void checkAsserts()
 {
 	if (!fail)
-		printf("Assert: Success!\n");
+		printf("AssertEmbargo: Success!\n");
 }
 
 int main()
