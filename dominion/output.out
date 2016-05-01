@@ -1,9 +1,0 @@
-AssertKingdomCardsValues: Test Success!
-AssertNewGame: Test Success!
-
-Enter a positive integer seed (9 digits or less) >> AssertInitializeGame: Test Success!
-AssertKingdomCards: Test Success!
-AssertSmithy: Success!
-AssertOutpost: Success!
-AssertGreatHall: Success!
-AssertEmbargo: Success!
