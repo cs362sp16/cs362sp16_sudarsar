@@ -43,7 +43,7 @@ cardtest3:
 cardtest4:
 	gcc -o cardtest4 cardtest4.c -g dominion.o rngs.o $(CFLAGS)
 
-ctests: cardtest1 cardtest2
+ctests: cardtest1 cardtest2 cardtest3 cardtest4
 
 dsm:
 	rm -rf *.dSYM

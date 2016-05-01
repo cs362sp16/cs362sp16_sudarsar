@@ -22,7 +22,7 @@ void checkAsserts()
 int main()
 {
 	struct gameState *game = newGame();
-	int k[10] = {smithy,adventurer,gardens,embargo,cutpurse,mine,ambassador,outpost,baron, tribute};
+	int k[10] = {smithy,adventurer,gardens,embargo,cutpurse,mine,ambassador,outpost,baron,tribute};
 
 	int result = initializeGame(3, k, 7, game);
 	assertOutpostCard(result == 0, "Initialize Game");
