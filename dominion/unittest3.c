@@ -24,7 +24,7 @@ int main()
 	struct gameState *game = newGame();
 	int array[10] = {1,2,3,4,5,6,7,8,9,10};
 
-	initializeGame(2, array, 0, game);
+	initializeGame(2, array, 9, game);
 
 	assertInitializeGame(game->numPlayers, 2);
 

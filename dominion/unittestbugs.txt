@@ -1,0 +1,5 @@
+All of my unit tests have passed. However, I get a false positive for smithyCard.
+SmithyCard/CardTest1 should have failed because the code for smithyCard draws 4 cards
+rather than 3. But, the total cards in hand increase only by 3 even though it should
+have been 4. I am not sure why this bug is occuring since I've tried a lot of values
+for drawing cards. It is always off by 1.

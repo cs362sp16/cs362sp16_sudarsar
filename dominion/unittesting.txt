@@ -1,0 +1,5 @@
+I'm averaging 82% code coverage. It's interesting that I can never get 100% code 
+coverage because if the test passes, the lines that deal with the test failure don't 
+run. If the test fails, the lines that deal with test success don't run. So, there is 
+no way to get 100%. Moreover, I felt that my code coverage a false high because I don't 
+think I testing every line of the code.
