@@ -2,14 +2,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int fail = 0;
+
 void assertNewGame(struct gameState *game)
 {
 	if (!game)
 	{
 		printf("AssertNewGame: Test Fail!\n");
-
-		exit(0);
+		fail = 1;
 	}
+}
+
+void checkAssert()
+{
+	if (fail != 1)
+		printf("AssertNewGame: Test Success!\n");
 }
 
 int main()
@@ -18,6 +25,7 @@ int main()
 
 	assertNewGame(game);
 
-	printf("AssertNewGame: Test Success!\n");
+	checkAssert();
+
 	return 0;
 }

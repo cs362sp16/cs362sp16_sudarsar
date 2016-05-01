@@ -2,16 +2,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int fail = 0;
+
 void assertInitializeGame(int actualPlayers, int expectedPlayers)
 {
 	if (actualPlayers != expectedPlayers)
 	{
 		printf("AssertInitializeGame: Test Fail!\n");
-		printf("Expected: %d\n", expectedPlayers);
-		printf("Actual: %d\n", actualPlayers);
-
-		exit(0);
+		fail = 1;
 	}
+}
+
+void checkAssert()
+{
+	if (fail != 1)
+		printf("AssertInitializeGame: Test Success!\n");
 }
 
 int main()
@@ -23,7 +28,7 @@ int main()
 
 	assertInitializeGame(game->numPlayers, 2);
 
-	printf("AssertInitializeGame: Test Success!\n");
+	checkAssert();
 
 	return 0;
 }

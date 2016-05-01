@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int fail = 0;
+
 void assertKingdomCardsValues(int *expectedPtr, int *actualPtr)
 {
 	int i = 0;
@@ -11,12 +13,15 @@ void assertKingdomCardsValues(int *expectedPtr, int *actualPtr)
 		if (expectedPtr[i] != actualPtr[i])
 		{
 			printf("AssertKingdomCardsValues: Test Fail!\n");
-			printf("\tExpected Value: %d\n", expectedPtr[i]);
-			printf("\tActual Value: %d\n", actualPtr[i]);
-
-			exit(0);
+			fail = 1;
 		}
 	}
+}
+
+void checkAssert()
+{
+	if (fail != 1)
+		printf("AssertKingdomCardsValues: Test Success!\n");
 }
 
 int main()
@@ -38,7 +43,7 @@ int main()
 
 	assertKingdomCardsValues(array, kingdomArray);
 
-	printf("AssertKingdomCardsValues: Test Success!\n");
+	checkAssert();
 
 	return 0;
 }

@@ -43,7 +43,11 @@ cardtest3:
 cardtest4:
 	gcc -o cardtest4 cardtest4.c -g dominion.o rngs.o $(CFLAGS)
 
-ctests: cardtest1 cardtest2 cardtest3 cardtest4
+ctests: cardtest1 cardtest2
 
-clean:
-	rm -f *.o playdom.exe playdom test.exe test player unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 player.exe testInit testInit.exe *.gcov *.gcda *.gcno *.so *.a *.dSYM
+dsm:
+	rm -rf *.dSYM
+
+clean: dsm
+	rm -f *.o playdom.exe playdom test.exe test player unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 player.exe testInit testInit.exe *.gcov *.gcda *.gcno *.so *.a
+

@@ -33,23 +33,23 @@ enum CARD
 	mine, /* choice1 is hand# of money to trash, choice2 is supply# of
 		 money to put in hand */
 	remodel, /* choice1 is hand# of card to remodel, choice2 is supply# */
-		smithy,
-		village,
+	smithy,
+	village,
 
-		baron, /* choice1: boolean for discard of estate */
-		/* Discard is always of first (lowest index) estate */
-		great_hall,
-		minion, /* choice1:  1 = +2 coin, 2 = redraw */
-		steward, /* choice1: 1 = +2 card, 2 = +2 coin, 3 = trash 2 (choice2,3) */
-		tribute,
+	baron, /* choice1: boolean for discard of estate */
+	/* Discard is always of first (lowest index) estate */
+	great_hall,
+	minion, /* choice1:  1 = +2 coin, 2 = redraw */
+	steward, /* choice1: 1 = +2 card, 2 = +2 coin, 3 = trash 2 (choice2,3) */
+	tribute,
 
-		ambassador, /* choice1 = hand#, choice2 = number to return to supply */
-		cutpurse,
-		embargo, /* choice1 = supply# */
-		outpost,
-		salvager, /* choice1 = hand# to trash */
-		sea_hag,
-		treasure_map
+	ambassador, /* choice1 = hand#, choice2 = number to return to supply */
+	cutpurse,
+	embargo, /* choice1 = supply# */
+	outpost,
+	salvager, /* choice1 = hand# to trash */
+	sea_hag,
+	treasure_map
 };
 
 struct gameState {
@@ -101,6 +101,18 @@ int buyCard(int supplyPos, struct gameState *state);
 
 int numHandCards(struct gameState *state);
 /* How many cards current player has in hand */
+
+void smithyCard(int i, int currentPlayer, struct gameState *state, int handPos);
+
+void villageCard(int currentPlayer, int handPos, struct gameState *state);
+
+void outpostCard(struct gameState *state, int handPos, int currentPlayer);
+
+void salvagerCard(int choice1, int handPos, int currentPlayer, struct gameState *state);
+
+int customHand(int player, struct gameState *state,int card);
+
+int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus);
 
 int handCard(int handNum, struct gameState *state);
 /* enum value of indexed card in player's hand */

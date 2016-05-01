@@ -642,6 +642,14 @@ int getCost(int cardNumber)
 }
 
 
+int customHand(int player, struct gameState *state,int card)
+{
+	state->hand[player][state->handCount[player]] = card;
+	state->handCount[player]++;
+	
+	return 0;
+}
+
 void smithyCard(int i, int currentPlayer, struct gameState *state, int handPos)
 {
 	//+3 Cards
@@ -701,7 +709,6 @@ void sea_hagCard(int i, int currentPlayer, struct gameState *state)
 		}
 	}
 }
-
 
 int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus)
 {
