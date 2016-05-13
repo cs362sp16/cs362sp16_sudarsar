@@ -5,14 +5,15 @@
 #include "dominion.h"
 #include "rngs.h"
 
-#define NUM_TESTS 11
+#define NUM_TESTS 1000
 
 int main()
 {
 	SelectStream(2);
 	PutSeed(time(NULL));
 
-	struct gameState *game = newGame();
+	struct gameState game;
+
 	int k[10] = {smithy,adventurer,gardens,embargo,cutpurse,mine,ambassador,outpost,baron,tribute};
 
 	int i, j, numPlayers, seed;
@@ -21,37 +22,37 @@ int main()
 		numPlayers = (rand() % MAX_PLAYERS) + 1;
 		seed = rand();
 
-		initializeGame(numPlayers, k, seed, game);
+		initializeGame(numPlayers, k, seed, &game);
 
 		for(j=0;j<numPlayers;j++)
 		{
-			game->handCount[j] = rand() % MAX_HAND;
-			game->deckCount[j] = rand() % (MAX_DECK - game->handCount[j]);
-			game->discardCount[j] = rand() % (MAX_DECK - game->discardCount[j]);
+			game.handCount[j] = rand() % MAX_HAND;
+			game.deckCount[j] = rand() % (MAX_DECK - game.handCount[j]);
+			game.discardCount[j] = rand() % (MAX_DECK - game.discardCount[j]);
 
 			int n;
-			int handPos = rand() % (game->handCount[j] + 1);
+			int handPos = rand() % (game.handCount[j] + 1);
 
-			for(n=0;n<game->handCount[j];n++)
+			for(n=0;n<game.handCount[j];n++)
 			{
-				game->hand[j][n] = rand() % (treasure_map + 1);
-				game->handCount[j]++;
+				game.hand[j][n] = rand() % (treasure_map + 1);
+				game.handCount[j]++;
 			}
 
-			for(n=0;n<game->deckCount[j];n++)
+			for(n=0;n<game.deckCount[j];n++)
 			{
-				game->deck[j][n] = rand() % (treasure_map + 1);
-				game->deckCount[j]++;
+				game.deck[j][n] = rand() % (treasure_map + 1);
+				game.deckCount[j]++;
 			}
 
-			for(n=0;n<game->discardCount[j];n++)
+			for(n=0;n<game.discardCount[j];n++)
 			{
-				game->discard[j][n] = rand() % (treasure_map + 1);
-				game->discardCount[j]++;
+				game.discard[j][n] = rand() % (treasure_map + 1);
+				game.discardCount[j]++;
 			}	
 
-			game->hand[j][handPos] = adventurer;
-			int result = cardEffect(adventurer, 0, 0, 0, game, handPos, 0);
+			game.hand[j][handPos] = adventurer;
+			int result = cardEffect(adventurer, 0, 0, 0, &game, handPos, 0);
 			
 			if (result != 0)
 			{
