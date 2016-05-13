@@ -5,7 +5,7 @@
 #include "dominion.h"
 #include "rngs.h"
 
-#define NUM_TESTS 1000
+#define NUM_TESTS 5000
 
 int main()
 {
@@ -61,7 +61,7 @@ int main()
 			}
 		}
 	}
-
+	
 	printf("Tests Successfully Completed!\n");
 	return 0;
 }

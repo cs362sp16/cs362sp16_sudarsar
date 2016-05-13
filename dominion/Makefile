@@ -66,8 +66,10 @@ all: playdom player results
 dsm:
 	rm -rf *.dSYM
 
-rdm: 
-	gcc ./randomtestadventurer.c dominion.c ./rngs.c -lm -g
+rtests: 
+	gcc -o randomtestadventurer -g randomtestadventurer.c dominion.c rngs.c -lm
+	gcc -o randomtestcard1 -g randomtestcard1.c dominion.c rngs.c -lm
+	gcc -o randomtestcard2 -g randomtestcard2.c dominion.c rngs.c -lm
 
 clean: dsm
 	rm -f *.o playdom.exe playdom test.exe test player unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 player.exe testInit testInit.exe *.gcov *.gcda *.gcno *.so *.a
