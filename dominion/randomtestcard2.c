@@ -5,13 +5,10 @@
 #include "dominion.h"
 #include "rngs.h"
 
-#define NUM_TESTS 100
+#define NUM_TESTS 5000
 
-int main()
+int main(int argc, char *argv[])
 {
-	SelectStream(2);
-	PutSeed(time(NULL));
-
 	struct gameState game;
 
 	int k[10] = {smithy,adventurer,gardens,embargo,cutpurse,mine,ambassador,outpost,baron,tribute};
@@ -20,8 +17,9 @@ int main()
 
 	for(i=0;i<NUM_TESTS;i++)
 	{
+		seed = atoi(argv[1]);
+
 		numPlayers = (rand() % MAX_PLAYERS) + 1;
-		seed = rand();
 
 		initializeGame(numPlayers, k, seed, &game);
 

@@ -1,0 +1,13 @@
+To make the random test generators, I set up random values for the game struct
+attributes such as deck, hand, and discard. Then I called the cardEffect function
+with the respective arguments and checked if the result is 0. If not, then I printed
+out a fail statement and exited the program. I'm running 5000 iterations of tests to 
+make sure statistically the functions run correctly. To get 100% test coverage for 
+adventurer card, I used the assert function so as to prevent any unused branches/statements
+that could cause a drop in the coverage percentage. Random tests definitely had a higher 
+test coverage than unit tests. I think that random tests are a better solution to 
+find faults too because, there is no way one person can think of all the possible 
+arguments which can break the code. With enough test iterations, there is a higher chance
+that faults will show up during random tests. I believe that all these cards are correct
+in their implementation because the result of cardEffect is 0 which signifies that these
+random values don't break the code.

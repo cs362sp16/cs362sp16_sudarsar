@@ -39,11 +39,22 @@ cardtest3:
 cardtest4:
 	gcc -o cardtest4 cardtest4.c -g dominion.o rngs.o $(CFLAGS)
 
+randomtestadventurer:
+	gcc -o randomtestadventurer -g randomtestadventurer.c dominion.c rngs.c $(CFLAGS)
+
+randomtestcard1: 
+	gcc -o randomtestcard1 -g randomtestcard1.c dominion.c rngs.c $(CFLAGS)
+
+randomtestcard2: 
+	gcc -o randomtestcard2 -g randomtestcard2.c dominion.c rngs.c $(CFLAGS)
+
 utests: unittest1 unittest2 unittest3 unittest4
 
 ctests: cardtest1 cardtest2 cardtest3 cardtest4
 
-results: utests ctests
+rtests: randomtestadventurer randomtestcard1 randomtestcard2
+
+results: utests ctests rtests
 	unittest1 > unittestresults.out
 	gcov unittest1 >> unittestresults.out
 	unittest2 >> unittestresults.out
@@ -60,17 +71,18 @@ results: utests ctests
 	gcov cardtest3 >> unittestresults.out
 	cardtest4 >> unittestresults.out
 	gcov cardtest4 >> unittestresults.out
+	randomtestadventurer 3 > randomtestresults.out
+	gcov randomtestadventurer >> randomtestresults.out
+	randomtestcard1 4 >> randomtestresults.out
+	gcov randomtestcard1 >> randomtestresults.out
+	randomtestcard2 6 >> randomtestresults.out
+	gcov randomtestcard2 >> randomtestresults.out
 
 all: playdom player results
 
 dsm:
 	rm -rf *.dSYM
 
-rtests: 
-	gcc -o randomtestadventurer -g randomtestadventurer.c dominion.c rngs.c -lm
-	gcc -o randomtestcard1 -g randomtestcard1.c dominion.c rngs.c -lm
-	gcc -o randomtestcard2 -g randomtestcard2.c dominion.c rngs.c -lm
-
 clean: dsm
-	rm -f *.o playdom.exe playdom test.exe test player unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 player.exe testInit testInit.exe *.gcov *.gcda *.gcno *.so *.a
+	rm -f *.o playdom.exe playdom test.exe test player unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 player.exe testInit testInit.exe *.gcov *.gcda *.gcno *.so *.a randomtestcard1 randomtestcard2 randomtestadventurer
 

@@ -1,0 +1,15 @@
+Tests Successfully Completed!
+File 'randomtestadventurer.c'
+Lines executed:100.00% of 29
+randomtestadventurer.c:creating 'randomtestadventurer.c.gcov'
+
+Tests Successfully Completed!
+File 'randomtestcard1.c'
+Lines executed:93.55% of 31
+randomtestcard1.c:creating 'randomtestcard1.c.gcov'
+
+Tests Successfully Completed!
+File 'randomtestcard2.c'
+Lines executed:93.55% of 31
+randomtestcard2.c:creating 'randomtestcard2.c.gcov'
+
