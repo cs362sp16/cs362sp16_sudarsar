@@ -78,11 +78,14 @@ results: utests ctests rtests
 	randomtestcard2 6 >> randomtestresults.out
 	gcov randomtestcard2 >> randomtestresults.out
 
-all: playdom player results
+testdominion:
+	gcc -o testdominion testdominion.c -g dominion.o rngs.o $(CFLAGS)
+
+all: clean playdom player results testdominion
 
 dsm:
 	rm -rf *.dSYM
 
 clean: dsm
-	rm -f *.o playdom.exe playdom test.exe test player unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 player.exe testInit testInit.exe *.gcov *.gcda *.gcno *.so *.a randomtestcard1 randomtestcard2 randomtestadventurer
+	rm -f *.o playdom.exe playdom test.exe test player unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 player.exe testInit testInit.exe *.gcov *.gcda *.gcno *.so *.a randomtestcard1 randomtestcard2 randomtestadventurer testdominion
 
