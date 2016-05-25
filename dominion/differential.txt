@@ -1,0 +1,21 @@
+< Final Score for 0: 49
+< Final Score for 1: 13
+< Final Score for 2: 6
+> The winner is player: 2
+File 'dominion.c'
+Lines executed:67.58% of 654
+dominion.c:creating 'dominion.c.gcov'
+
+File 'dominion.c'
+Lines executed:50.89% of 674
+dominion.c:creating 'dominion.c.gcov'
+
+I compared my code with Dennis. The code failed because we were getting different scores and different
+winners as well. I'm not exacly sure of the reason. There were a lot of differences in the implementations 
+of our codes. It is pretty difficult to find out who was right. This is not the best case for using differential 
+testing because, there are a lot of differences in the implementation code; especially owing to the usage of random 
+numbers in the the implementation. Also, there are a lot of cards to chose from which makes it hard to choose 
+the same cards in both the programs. I also noticed a bug in the feast which I changed to prevent an infinite loop.
+My program has a 67.5% code coverage and Dennis' code has a coverage of 50.9%. I'm not really sure what's causing
+this discrepancy in the code coverages but since we can't really do anything about it, I just thought I should 
+put it here.

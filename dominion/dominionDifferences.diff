@@ -1,0 +1,1224 @@
+1,801c1,413
+< Starting game.
+< Game starts with 3 players, using 34 as random seed
+< Kingdom cards:
+< sea_hag,
+< village,
+< cutpurse,
+< treasure_map,
+< great_hall,
+< steward,
+< council_room,
+< tribute,
+< outpost,
+< mine,
+< Score for 0: 2
+< Score for 1: 0
+< Score for 2: 0
+< Turn#: 1
+< Player 0 bought great_hall
+< 0: end turn
+< Score for 0: 4
+< Score for 1: 0
+< Score for 2: 0
+< Turn#: 2
+< Player 1 bought steward
+< 1: end turn
+< Score for 0: 4
+< Score for 1: 3
+< Score for 2: 1
+< Turn#: 3
+< Player 2 bought village
+< 2: end turn
+< Score for 0: 5
+< Score for 1: 3
+< Score for 2: 3
+< Turn#: 4
+< Player 0 bought treasure_map
+< 0: end turn
+< Score for 0: 5
+< Score for 1: 6
+< Score for 2: 3
+< Turn#: 5
+< 1: bought copper
+< 1: end turn
+< Score for 0: 5
+< Score for 1: 4
+< Score for 2: 5
+< Turn#: 6
+< Player 2 bought village
+< 2: end turn
+< Score for 0: 2
+< Score for 1: 4
+< Score for 2: 6
+< Turn#: 7
+< Player 0 attempts to play treasure_map from hand
+< Play failed
+< 0: bought copper
+< 0: end turn
+< Score for 0: 4
+< Score for 1: 2
+< Score for 2: 6
+< Turn#: 8
+< Player 1 attempts to play steward from hand
+< Play succeeded
+< 1: bought copper
+< 1: end turn
+< Score for 0: 4
+< Score for 1: 1
+< Score for 2: 1
+< Turn#: 9
+< 2: bought silver
+< 2: end turn
+< Score for 0: 5
+< Score for 1: 1
+< Score for 2: 3
+< Turn#: 10
+< Player 0 attempts to play great_hall from hand
+< Play succeeded
+< 0: bought silver
+< 0: end turn
+< Score for 0: 7
+< Score for 1: 2
+< Score for 2: 3
+< Turn#: 11
+< 1: bought silver
+< 1: end turn
+< Score for 0: 7
+< Score for 1: 3
+< Score for 2: 4
+< Turn#: 12
+< Player 2 attempts to play village from hand
+< Play succeeded
+< Player 2 bought great_hall
+< 2: end turn
+< Score for 0: 1
+< Score for 1: 3
+< Score for 2: 6
+< Turn#: 13
+< 0: bought silver
+< 0: end turn
+< Score for 0: 3
+< Score for 1: 2
+< Score for 2: 6
+< Turn#: 14
+< Player 1 bought steward
+< 1: end turn
+< Score for 0: 3
+< Score for 1: 2
+< Score for 2: 2
+< Turn#: 15
+< Player 2 attempts to play village from hand
+< Play succeeded
+< Player 2 bought treasure_map
+< 2: end turn
+< Score for 0: 4
+< Score for 1: 2
+< Score for 2: 4
+< Turn#: 16
+< Player 0 bought cutpurse
+< 0: end turn
+< Score for 0: 5
+< Score for 1: 2
+< Score for 2: 4
+< Turn#: 17
+< Player 1 bought council_room
+< 1: end turn
+< Score for 0: 5
+< Score for 1: 6
+< Score for 2: 4
+< Turn#: 18
+< 2: bought silver
+< 2: end turn
+< Score for 0: 1
+< Score for 1: 6
+< Score for 2: 5
+< Turn#: 19
+< Player 0 attempts to play treasure_map from hand
+< Play failed
+< Player 0 bought steward
+< 0: end turn
+< Score for 0: 3
+< Score for 1: 1
+< Score for 2: 5
+< Turn#: 20
+< Player 1 attempts to play council_room from hand
+< Play succeeded
+< 1: bought province
+< 1: end turn
+< Score for 0: 3
+< Score for 1: 8
+< Score for 2: 1
+< Turn#: 21
+< Player 2 attempts to play great_hall from hand
+< Play succeeded
+< Player 2 bought great_hall
+< 2: end turn
+< Score for 0: 3
+< Score for 1: 8
+< Score for 2: 3
+< Turn#: 22
+< Player 0 attempts to play cutpurse from hand
+< Play succeeded
+< Player 0 bought outpost
+< 0: end turn
+< Score for 0: 3
+< Score for 1: 1
+< Score for 2: 3
+< Turn#: 23
+< Player 1 attempts to play steward from hand
+< Play succeeded
+< Player 1 did not have enough money to buy a card...
+< 1: end turn
+< Score for 0: 3
+< Score for 1: 1
+< Score for 2: 4
+< Turn#: 24
+< Player 2 attempts to play treasure_map from hand
+< Play failed
+< Player 2 bought village
+< 2: end turn
+< Score for 0: 2
+< Score for 1: 1
+< Score for 2: 5
+< Turn#: 25
+< Player 0 bought village
+< 0: end turn
+< Score for 0: 3
+< Score for 1: 7
+< Score for 2: 5
+< Turn#: 26
+< Player 1 bought sea_hag
+< 1: end turn
+< Score for 0: 3
+< Score for 1: 14
+< Score for 2: 0
+< Turn#: 27
+< Player 2 bought mine
+< 2: end turn
+< Score for 0: 3
+< Score for 1: 14
+< Score for 2: 2
+< Turn#: 28
+< Player 0 attempts to play treasure_map from hand
+< Play failed
+< 0: bought gold
+< 0: end turn
+< Score for 0: 3
+< Score for 1: 1
+< Score for 2: 2
+< Turn#: 29
+< Player 1 attempts to play sea_hag from hand
+< Play succeeded
+< 1: bought silver
+< 1: end turn
+< Score for 0: 1
+< Score for 1: 8
+< Score for 2: 4
+< Turn#: 30
+< Player 2 attempts to play great_hall from hand
+< Play succeeded
+< Player 2 bought great_hall
+< 2: end turn
+< Score for 0: 2
+< Score for 1: 8
+< Score for 2: 4
+< Turn#: 31
+< Player 0 attempts to play outpost from hand
+< Play succeeded
+< Player 0 did not have enough money to buy a card...
+< 0: end turn
+< Score for 0: 2
+< Score for 1: 15
+< Score for 2: 4
+< Turn#: 32
+< 1: bought silver
+< 1: end turn
+< Score for 0: 2
+< Score for 1: 16
+< Score for 2: 0
+< Turn#: 33
+< Player 2 attempts to play mine from hand
+< Play failed
+< Player 2 bought great_hall
+< 2: end turn
+< Score for 0: 2
+< Score for 1: 16
+< Score for 2: 3
+< Turn#: 34
+< Player 0 attempts to play village from hand
+< Play succeeded
+< 0: bought silver
+< 0: end turn
+< Score for 0: 4
+< Score for 1: 1
+< Score for 2: 3
+< Turn#: 35
+< Player 1 attempts to play sea_hag from hand
+< Play succeeded
+< Player 1 bought treasure_map
+< 1: end turn
+< Score for 0: 4
+< Score for 1: 8
+< Score for 2: 4
+< Turn#: 36
+< 2: bought silver
+< 2: end turn
+< Score for 0: 2
+< Score for 1: 8
+< Score for 2: 3
+< Turn#: 37
+< Player 0 bought sea_hag
+< 0: end turn
+< Score for 0: 4
+< Score for 1: 14
+< Score for 2: 3
+< Turn#: 38
+< 1: bought silver
+< 1: end turn
+< Score for 0: 4
+< Score for 1: 15
+< Score for 2: 2
+< Turn#: 39
+< Player 2 attempts to play great_hall from hand
+< Play succeeded
+< Player 2 bought great_hall
+< 2: end turn
+< Score for 0: 5
+< Score for 1: 15
+< Score for 2: 3
+< Turn#: 40
+< Player 0 bought village
+< 0: end turn
+< Score for 0: 8
+< Score for 1: 1
+< Score for 2: 3
+< Turn#: 41
+< 1: bought silver
+< 1: end turn
+< Score for 0: 8
+< Score for 1: 2
+< Score for 2: 4
+< Turn#: 42
+< Player 2 attempts to play great_hall from hand
+< Play succeeded
+< Player 2 bought cutpurse
+< 2: end turn
+< Score for 0: 2
+< Score for 1: 2
+< Score for 2: 4
+< Turn#: 43
+< 0: bought silver
+< 0: end turn
+< Score for 0: 3
+< Score for 1: 8
+< Score for 2: 4
+< Turn#: 44
+< Player 1 attempts to play sea_hag from hand
+< Play succeeded
+< Player 1 bought cutpurse
+< 1: end turn
+< Score for 0: 4
+< Score for 1: 14
+< Score for 2: 0
+< Turn#: 45
+< Player 2 attempts to play cutpurse from hand
+< Play succeeded
+< 2: bought silver
+< 2: end turn
+< Score for 0: 5
+< Score for 1: 14
+< Score for 2: 1
+< Turn#: 46
+< Player 0 attempts to play sea_hag from hand
+< Play succeeded
+< 0: bought silver
+< 0: end turn
+< Score for 0: 6
+< Score for 1: 1
+< Score for 2: 2
+< Turn#: 47
+< Player 1 attempts to play sea_hag from hand
+< Play succeeded
+< 1: bought silver
+< 1: end turn
+< Score for 0: 3
+< Score for 1: 2
+< Score for 2: 2
+< Turn#: 48
+< Player 2 attempts to play mine from hand
+< Play failed
+< 2: bought copper
+< 2: end turn
+< Score for 0: 0
+< Score for 1: 2
+< Score for 2: 1
+< Turn#: 49
+< Player 0 bought sea_hag
+< 0: end turn
+< Score for 0: 2
+< Score for 1: 8
+< Score for 2: 1
+< Turn#: 50
+< Player 1 attempts to play treasure_map from hand
+< Play failed
+< Player 1 did not have enough money to buy a card...
+< 1: end turn
+< Score for 0: 2
+< Score for 1: 14
+< Score for 2: 0
+< Turn#: 51
+< Player 2 attempts to play mine from hand
+< Play failed
+< Player 2 bought council_room
+< 2: end turn
+< Score for 0: 4
+< Score for 1: 14
+< Score for 2: 0
+< Turn#: 52
+< 0: bought gold
+< 0: end turn
+< Score for 0: 6
+< Score for 1: 15
+< Score for 2: 0
+< Turn#: 53
+< 1: bought gold
+< 1: end turn
+< Score for 0: 6
+< Score for 1: 11
+< Score for 2: 1
+< Turn#: 54
+< Player 2 attempts to play mine from hand
+< Play failed
+< Player 2 bought steward
+< 2: end turn
+< Score for 0: 7
+< Score for 1: 11
+< Score for 2: 2
+< Turn#: 55
+< Player 0 attempts to play sea_hag from hand
+< Play succeeded
+< Player 0 bought steward
+< 0: end turn
+< Score for 0: 3
+< Score for 1: 8
+< Score for 2: 1
+< Turn#: 56
+< Player 1 bought steward
+< 1: end turn
+< Score for 0: 3
+< Score for 1: 8
+< Score for 2: 1
+< Turn#: 57
+< Player 2 attempts to play mine from hand
+< Play failed
+< 2: bought copper
+< 2: end turn
+< Score for 0: 1
+< Score for 1: 8
+< Score for 2: 1
+< Turn#: 58
+< 0: bought silver
+< 0: end turn
+< Score for 0: 1
+< Score for 1: 8
+< Score for 2: 1
+< Turn#: 59
+< Player 1 attempts to play sea_hag from hand
+< Play succeeded
+< 1: bought silver
+< 1: end turn
+< Score for 0: 1
+< Score for 1: 8
+< Score for 2: 1
+< Turn#: 60
+< Player 2 attempts to play mine from hand
+< Play failed
+< Player 2 bought tribute
+< 2: end turn
+< Score for 0: 3
+< Score for 1: 8
+< Score for 2: 1
+< Turn#: 61
+< Player 0 bought great_hall
+< 0: end turn
+< Score for 0: 6
+< Score for 1: 8
+< Score for 2: 1
+< Turn#: 62
+< Player 1 attempts to play sea_hag from hand
+< Play succeeded
+< 1: bought gold
+< 1: end turn
+< Score for 0: 4
+< Score for 1: 16
+< Score for 2: 0
+< Turn#: 63
+< Player 2 attempts to play mine from hand
+< Play failed
+< Player 2 bought cutpurse
+< 2: end turn
+< Score for 0: 4
+< Score for 1: 16
+< Score for 2: 0
+< Turn#: 64
+< Player 0 attempts to play steward from hand
+< Play succeeded
+< Player 0 did not have enough money to buy a card...
+< 0: end turn
+< Score for 0: 4
+< Score for 1: 0
+< Score for 2: 0
+< Turn#: 65
+< Player 1 attempts to play cutpurse from hand
+< Play succeeded
+< 1: bought gold
+< 1: end turn
+< Score for 0: 4
+< Score for 1: 6
+< Score for 2: 1
+< Turn#: 66
+< Player 2 attempts to play mine from hand
+< Play failed
+< 2: bought silver
+< 2: end turn
+< Score for 0: 1
+< Score for 1: 6
+< Score for 2: 2
+< Turn#: 67
+< Player 0 attempts to play sea_hag from hand
+< Play succeeded
+< Player 0 bought sea_hag
+< 0: end turn
+< Score for 0: 4
+< Score for 1: 8
+< Score for 2: 1
+< Turn#: 68
+< Player 1 attempts to play steward from hand
+< Play succeeded
+< 1: bought copper
+< 1: end turn
+< Score for 0: 4
+< Score for 1: 7
+< Score for 2: 1
+< Turn#: 69
+< Player 2 attempts to play cutpurse from hand
+< Play succeeded
+< Player 2 did not have enough money to buy a card...
+< 2: end turn
+< Score for 0: 4
+< Score for 1: 7
+< Score for 2: 1
+< Turn#: 70
+< 0: bought province
+< 0: end turn
+< Score for 0: 10
+< Score for 1: 7
+< Score for 2: 1
+< Turn#: 71
+< Player 1 attempts to play sea_hag from hand
+< Play succeeded
+< 1: bought gold
+< 1: end turn
+< Score for 0: 10
+< Score for 1: 9
+< Score for 2: 1
+< Turn#: 72
+< Player 2 attempts to play mine from hand
+< Play failed
+< 2: bought silver
+< 2: end turn
+< Score for 0: 2
+< Score for 1: 9
+< Score for 2: 0
+< Turn#: 73
+< Player 0 bought great_hall
+< 0: end turn
+< Score for 0: 4
+< Score for 1: 6
+< Score for 2: 0
+< Turn#: 74
+< Player 1 attempts to play sea_hag from hand
+< Play succeeded
+< 1: bought silver
+< 1: end turn
+< Score for 0: 4
+< Score for 1: 7
+< Score for 2: 0
+< Turn#: 75
+< Player 2 attempts to play mine from hand
+< Play failed
+< 2: bought silver
+< 2: end turn
+< Score for 0: 5
+< Score for 1: 7
+< Score for 2: 1
+< Turn#: 76
+< Player 0 attempts to play sea_hag from hand
+< Play succeeded
+< 0: bought silver
+< 0: end turn
+< Score for 0: 4
+< Score for 1: 7
+< Score for 2: 1
+< Turn#: 77
+< 1: bought province
+< 1: end turn
+< Score for 0: 4
+< Score for 1: 13
+< Score for 2: 2
+< Turn#: 78
+< Player 2 attempts to play tribute from hand
+< Play succeeded
+< 2: bought silver
+< 2: end turn
+< Score for 0: 2
+< Score for 1: 13
+< Score for 2: 2
+< Turn#: 79
+< Player 0 attempts to play great_hall from hand
+< Play succeeded
+< 0: bought gold
+< 0: end turn
+< Score for 0: 2
+< Score for 1: 14
+< Score for 2: 2
+< Turn#: 80
+< Player 1 attempts to play sea_hag from hand
+< Play succeeded
+< 1: bought province
+< 1: end turn
+< Score for 0: 3
+< Score for 1: 17
+< Score for 2: 0
+< Turn#: 81
+< Player 2 attempts to play mine from hand
+< Play failed
+< Player 2 bought treasure_map
+< 2: end turn
+< Score for 0: 4
+< Score for 1: 17
+< Score for 2: 1
+< Turn#: 82
+< 0: bought gold
+< 0: end turn
+< Score for 0: 5
+< Score for 1: 0
+< Score for 2: 1
+< Turn#: 83
+< Player 1 attempts to play treasure_map from hand
+< Play failed
+< Player 1 bought treasure_map
+< 1: end turn
+< Score for 0: 5
+< Score for 1: 7
+< Score for 2: 2
+< Turn#: 84
+< Player 2 attempts to play great_hall from hand
+< Play succeeded
+< 2: bought silver
+< 2: end turn
+< Score for 0: 1
+< Score for 1: 7
+< Score for 2: 1
+< Turn#: 85
+< 0: bought province
+< 0: end turn
+< Score for 0: 8
+< Score for 1: 13
+< Score for 2: 1
+< Turn#: 86
+< Player 1 attempts to play sea_hag from hand
+< Play succeeded
+< 1: bought silver
+< 1: end turn
+< Score for 0: 8
+< Score for 1: 25
+< Score for 2: 0
+< Turn#: 87
+< Player 2 attempts to play tribute from hand
+< Play succeeded
+< 2: bought silver
+< 2: end turn
+< Score for 0: 0
+< Score for 1: 25
+< Score for 2: 0
+< Turn#: 88
+< 0: bought province
+< 0: end turn
+< Score for 0: 13
+< Score for 1: 31
+< Score for 2: 0
+< Turn#: 89
+< 1: bought gold
+< 1: end turn
+< Score for 0: 13
+< Score for 1: 31
+< Score for 2: 0
+< Turn#: 90
+< Player 2 attempts to play mine from hand
+< Play failed
+< Player 2 bought sea_hag
+< 2: end turn
+< Score for 0: 20
+< Score for 1: 31
+< Score for 2: 0
+< Turn#: 91
+< 0: bought gold
+< 0: end turn
+< Score for 0: 20
+< Score for 1: 38
+< Score for 2: 0
+< Turn#: 92
+< Player 1 bought council_room
+< 1: end turn
+< Score for 0: 20
+< Score for 1: 33
+< Score for 2: 0
+< Turn#: 93
+< 2: bought province
+< 2: end turn
+< Score for 0: 13
+< Score for 1: 33
+< Score for 2: 6
+< Turn#: 94
+< 0: bought silver
+< 0: end turn
+< Score for 0: 13
+< Score for 1: 0
+< Score for 2: 6
+< Turn#: 95
+< Player 1 attempts to play council_room from hand
+< Play succeeded
+< 1: bought province
+< 1: end turn
+< Score for 0: 13
+< Score for 1: 25
+< Score for 2: 6
+< Turn#: 96
+< Player 2 attempts to play mine from hand
+< Play failed
+< Player 2 bought outpost
+< 2: end turn
+< Score for 0: 13
+< Score for 1: 25
+< Score for 2: 6
+< Turn#: 97
+< 0: bought province
+< 0: end turn
+< Score for 0: 32
+< Score for 1: 25
+< Score for 2: 6
+< Turn#: 98
+< Player 1 attempts to play sea_hag from hand
+< Play succeeded
+< 1: bought province
+< 1: end turn
+< Score for 0: 31
+< Score for 1: 31
+< Score for 2: 0
+< Turn#: 99
+< Player 2 attempts to play treasure_map from hand
+< Play failed
+< 2: bought silver
+< 2: end turn
+< Score for 0: 7
+< Score for 1: 31
+< Score for 2: 0
+< Turn#: 100
+< 0: bought gold
+< 0: end turn
+< Score for 0: 19
+< Score for 1: 37
+< Score for 2: 0
+< Turn#: 101
+< 1: bought gold
+< 1: end turn
+< Score for 0: 19
+< Score for 1: 38
+< Score for 2: 6
+< Turn#: 102
+< Player 2 attempts to play outpost from hand
+< Play succeeded
+< 2: bought gold
+< 2: end turn
+< Score for 0: 25
+< Score for 1: 38
+< Score for 2: 12
+< Turn#: 103
+< 0: bought province
+< 0: end turn
+< Score for 0: 38
+< Score for 1: 50
+< Score for 2: 12
+< Turn#: 104
+< Player 1 attempts to play treasure_map from hand
+< Play failed
+< Player 1 bought village
+< 1: end turn
+< Score for 0: 38
+< Score for 1: 47
+< Score for 2: 12
+< Turn#: 105
+< Player 2 attempts to play sea_hag from hand
+< Play succeeded
+< Player 2 bought mine
+< 2: end turn
+< Score for 0: 12
+< Score for 1: 45
+< Score for 2: 9
+< Turn#: 106
+< 0: bought gold
+< 0: end turn
+< Score for 0: 31
+< Score for 1: 6
+< Score for 2: 9
+< Turn#: 107
+< Player 1 attempts to play treasure_map from hand
+< Play failed
+< Player 1 bought outpost
+< 1: end turn
+< Score for 0: 31
+< Score for 1: 6
+< Score for 2: 0
+< Turn#: 108
+< Player 2 attempts to play mine from hand
+< Play failed
+< Player 2 bought cutpurse
+< 2: end turn
+< Score for 0: 37
+< Score for 1: 6
+< Score for 2: 6
+< Turn#: 109
+< 0: bought province
+< 0: end turn
+< Score for 0: 49
+< Score for 1: 13
+< Score for 2: 6
+< Finished game.
+< Final Score for 0: 49
+< Final Score for 1: 13
+< Final Score for 2: 6
+< deck 1: 4
+---
+> --------- BEGIN GAME ---------
+> Here are the kindom cards: 
+> Treasure Map
+> Ambassador
+> Baron
+> Feast
+> Great Hall
+> Minion
+> Village
+> Council Room
+> Embargo
+> Cutpurse
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Great Hall
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Council Room
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Ambassador
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Embargo
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Played card: Great Hall, 16
+> All actions used, action phase over
+> Buy Phase
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Played card: Embargo, 22
+> All actions used, action phase over
+> Buy Phase
+> Buying card: Embargo
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Great Hall
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Played card: Council Room, 8
+> All actions used, action phase over
+> Buy Phase
+> Buying card: Curse
+> Buying card: Estate
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Played card: Great Hall, 16
+> Buy Phase
+> Buying card: Ambassador
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Embargo
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> All actions used, action phase over
+> Buy Phase
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Embargo
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Curse
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Played card: Embargo, 22
+> All actions used, action phase over
+> Buy Phase
+> Buying card: Embargo
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Copper
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Great Hall
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Embargo
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Played card: Embargo, 22
+> All actions used, action phase over
+> Buy Phase
+> Buying card: Copper
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Played card: Embargo, 22
+> All actions used, action phase over
+> Buy Phase
+> Buying card: Embargo
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Played card: Embargo, 22
+> All actions used, action phase over
+> Buy Phase
+> Buying card: Embargo
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Played card: Embargo, 22
+> All actions used, action phase over
+> Buy Phase
+> Buying card: Estate
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Great Hall
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Embargo
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Embargo
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Played card: Embargo, 22
+> All actions used, action phase over
+> Buy Phase
+> Buying card: Estate
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Played card: Great Hall, 16
+> Played card: Embargo, 22
+> All actions used, action phase over
+> Buy Phase
+> Buying card: Ambassador
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Curse
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Curse
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Copper
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Copper
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Estate
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Played card: Embargo, 22
+> All actions used, action phase over
+> Buy Phase
+> Buying card: Estate
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Great Hall
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Played card: Great Hall, 16
+> Buy Phase
+> Buying card: Copper
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Estate
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Played card: Embargo, 22
+> All actions used, action phase over
+> Buy Phase
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Played card: Great Hall, 16
+> Buy Phase
+> Buying card: Curse
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> All actions used, action phase over
+> Buy Phase
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Copper
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Great Hall
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Curse
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Silver
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Buy Phase
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Copper
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Great Hall
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Played card: Great Hall, 16
+> Buy Phase
+> Buying card: Silver
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Ambassador
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Curse
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Curse
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Village
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> All actions used, action phase over
+> Buy Phase
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Cutpurse
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Played card: Great Hall, 16
+> Buy Phase
+> Buying card: Estate
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Played card: Cutpurse, 21
+> All actions used, action phase over
+> Buy Phase
+> Buying card: Cutpurse
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Curse
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Great Hall
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Copper
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Copper
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 0 ---
+> Starting action phase
+> Buy Phase
+> Buying card: Village
+> Buy Phase over
+> End turn
+> --- Starting turn for player: 1 ---
+> Starting action phase
+> Played card: Village, 14
+> Buy Phase
+> Buying card: Estate
+> Buy Phase over
+> End turn
+> 
+>  -------- SCOREBOARD --------
+> 
+> Player 0 has a score of: -2
+> Player 1 has a score of: 2
+> 
+> The winner is player: 1
+> Their score was: 2
+> Game Over
+> 
+File 'dominion.c'
+Lines executed:67.58% of 654
+dominion.c:creating 'dominion.c.gcov'
+
+File 'dominion.c'
+Lines executed:54.01% of 674
+dominion.c:creating 'dominion.c.gcov'
+

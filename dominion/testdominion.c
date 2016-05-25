@@ -195,7 +195,7 @@ int main (int argc, char** argv)
 	// Print final scores for the players.
 	//
 	for (i = 0; i < numPlayers; i++){
-		printf("Score for %d: %d\n", i, scoreFor(i, p));
+		printf("Final Score for %d: %d\n", i, scoreFor(i, p));
 	}
 
 	printf("deck 1: %d\n",p->deckCount[0]);

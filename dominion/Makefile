@@ -80,6 +80,7 @@ results: utests ctests rtests
 
 testdominion:
 	gcc -o testdominion testdominion.c -g dominion.o rngs.o $(CFLAGS)
+	testdominion 42
 
 all: clean playdom player results testdominion
 
