@@ -1,0 +1,7 @@
+While testing pengs' code using the random tester, I noticed that his code
+for steward card does not discard the right number of cards. The card should 
+actually discard 2 cards, but the way the code is implemented, only one card 
+is discarded. The output from the random tester showed that everytime the random
+tester encountered this card, only one card was discarded. This isn't a severe 
+error and it can be fixed by a pretty easy solution of calling the discardCard
+function one more time with the arguments handPos, currentPlayer, state and 0.

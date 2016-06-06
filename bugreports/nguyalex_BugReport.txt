@@ -1,0 +1,10 @@
+While testing Alex's dominion code using random testers, I noticed that
+his code kept hanging at random times. I narrowed the bug down to feast card 
+and finding this was relatively easy because, the output showed the last 
+card to execute in the random testing was always the feast card. By using print
+statements, I was able to narrow down the problem to the if statement where the 
+user tries to buy one card. There is an infinite loop because the code does not
+provide a way for the program to get out of the loop. Although this is a frequently
+occuring problem in random testing, it was relatively easy to solve. By adding x=0
+inside the if statement, you can provide the program a chance to get out of the 
+infinite loop once the code in the if statement has executed. 

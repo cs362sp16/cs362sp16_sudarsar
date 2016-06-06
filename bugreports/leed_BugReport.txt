@@ -1,0 +1,8 @@
+While testing Leed's code, I found an error in his implementation of adventurer card.
+I noticed when running the random tester on his code, the output values showed that
+the handCount of the player does not decrease. I narrowed down the problem on using 
+print statements in his code. If running right, the state->handCount value should 
+decrement by 1. However, since this code does not do it, when the card drawn is not 
+gold or silver or copper, the handCount still remains the same. Fixing this code is 
+more of understanding that the decrement statement has to go in place. So all that 
+is needed to be done is to reduce the handCount of the current player by 1.
