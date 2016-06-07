@@ -1,0 +1,11 @@
+unittest1     unittest1.c.gcov        fail
+unittest2     unittest2.c.gcov        pass
+unittest3     unittest3.c.gcov        fail
+unittest4     unittest4.c.gcov        pass
+cardtest1     cardtest1.c.gcov	      pass
+cardtest2     cardtest2.c.gcov        pass
+cardtest3     cardtest3.c.gcov        pass
+cardtest4     cardtest4.c.gcov        pass
+randomtestadventurer	randomtestadventurer.c.gcov	pass
+randomtestcard1		randomtestcard1.c.gcov		fail
+randomtestcard2		randomtestcard2.c.gcov		pass

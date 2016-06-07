@@ -1,0 +1,13 @@
+To find a bug in my code, I used on of classmate's code for random testing of the full game. I wanted to use a tester
+that has a chance to make it fail so as to use Agans' second principle of making it fail. When the other random tester
+was run, there were certain times when the program would suddenly just hang. I used a shell script to just run the program
+in loop and after 20 times, the hanging kept happening quite frequently. In order to fix the bug, I had to use Agans' 
+first principle of understanding the system. I read up more on the rules of Dominion and also looked through the code. Then
+I used a debugger to run the executable and when the the program started hanging, I used the backtrace command to check where
+the bug was occuring. I found that something was wrong in the card effect function and placed print statements in the code
+to find where exactly the code seemed to hang. I noticed that the code always stopped inside the feast card. Using Agans' 
+principle of changing one thing at a time, I added a print statement inside the feast card implementation to narrow down on
+the exact spot of when it's hanging. I finally found that once the program goes into the first if branch, there is no way 
+for the value of x to change which causes the while loop outside to go on infinitely. This is the reason why the program 
+was hanging. So, I introduced the line where x is set to 0 at the end of the if branch, so that the program has a chance 
+to break out of the loop.

@@ -1,0 +1,4 @@
+unittest1     unittest1.c.gcov        pass
+unittest2     unittest2.c.gcov        pass
+unittest3     unittest3.c.gcov        pass
+unittest4     unittest4.c.gcov        pass

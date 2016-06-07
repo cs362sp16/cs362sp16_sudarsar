@@ -1,0 +1,10 @@
+I used tarantula using python. I had to make tarantula with help from Google and GitHub because 
+I'm not really familiar with the os package of python. So, to execute the script, you need to 
+create a tests.txt file with the test executable, the respective gcov file and whether the test 
+passed or failed delimited by tabs. I included a sample tests.txt file. The code essentially 
+parses through the gcov file and uses the tarantula formula to calculate the suspiciousness of 
+the localized bug. I used tarantula to find the error in adventurer. Tarantula showed a higher 
+suspiciousness level near the line discarding the card after using it. I found that the the 
+adventurer card never gets discarded, so the user always has an adventurer card in their hands. 
+Also, I found another error in adventurer where the switch case always returns a 0. This is an 
+error that would be hard to find without Tarantula.
